@@ -9,7 +9,7 @@ $ cd gnome-shell-font-changer
 
 ## Customization
 
-CTRL + F, find this line and change your fonts 
+CTRL + F in the `script` file, find this line and change your fonts 
 
 ```bash
 perl -i -p -e 's/font-family:.*;/font-family: "SF Pro Text", Cantarell, Sans-Serif;/' gnome-shell.css
