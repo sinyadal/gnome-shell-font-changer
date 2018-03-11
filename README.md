@@ -6,7 +6,11 @@
 $ git clone https://github.com/sinyadal/gnome-shell-font-changer.git
 $ cd gnome-shell-font-changer
 ```
+## Backup
 
+```bash
+cp /usr/share/gnome-shell/gnome-shell-theme.gresource /usr/share/gnome-shell/gnome-shell-theme.gresource.bak
+```
 ## Customization
 
 Open the `script` file, find this line and change your fonts 
